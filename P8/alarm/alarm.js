@@ -1,8 +1,8 @@
 // Chances are boot0.js got run already and scheduled *another*
 // 'load(alarm.js)' - so let's remove it first!
 var STOR = require("Storage");
-eval(STOR.read("prompt.js"));
-eval(STOR.read("menu.js"));
+//eval(STOR.read("prompt.js"));
+//eval(STOR.read("menu.js"));
 clearInterval();
 
 function formatTime(t) {
