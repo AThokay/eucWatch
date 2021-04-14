@@ -308,7 +308,7 @@
 	{ "id": "example_app",
 		"name": "Hello example",
 		"icon": "icon.png",
-		"version":"0.20",
+		"version":"0.30",
 		"description": "A face/app with just the minimum, to be used as a starting point. ",
 		"tags": "apps",
 		"readme": "README.md",
