@@ -1,5 +1,5 @@
 var STOR = require("Storage");
-eval(STOR.read("widgets.js"));
+//eval(STOR.read("widgets.js"));
 var fontsize = 3;
 var marginTop = 40;
 var flag = false;
@@ -8,8 +8,8 @@ var WeekDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sat
 function drawAll(){
   updateTime();
   updateRest(new Date());
-  P8.loadWidgets();
-  P8.drawWidgets();
+  //P8.loadWidgets();
+  //P8.drawWidgets();
 }
 
 function updateRest(now){
