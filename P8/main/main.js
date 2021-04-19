@@ -215,7 +215,7 @@ this.g.drawImage(require("heatshrink").decompress(atob("kEgwMAn/gA4N/+ADB/4DC8Fw
     else  {this.bmin=col("raf2");this.fsec=col("dgray1");this.bsec=col("raf2");}
 	}else {this.bmin=col("raf2");this.fsec=col("dgray1");this.bsec=col("raf2");}
 	this.g.setColor(0,this.bmin);
-    this.g.fillRect(105,55,210,150);
+    this.g.fillRect(120,55,239,150);
 	this.g.setColor(1,this.fmin);
     this.g.drawString(this.t[1],120,72);
     this.g.flip();
@@ -232,7 +232,7 @@ this.g.drawImage(require("heatshrink").decompress(atob("kEgwMAn/gA4N/+ADB/4DC8Fw
   if (this.t[0]!=this.hour){
     this.hour=this.t[0];
     this.g.setColor(0,col("lgray"));
-    this.g.fillRect(0,55,100,150);
+    this.g.fillRect(0,55,118,150);
     this.g.setColor(1,col("white"));
     this.g.setFont("Vector",66);
     this.g.drawString(this.t[0],15,72); //hours
