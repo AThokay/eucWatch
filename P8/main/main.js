@@ -217,7 +217,7 @@ this.g.drawImage(require("heatshrink").decompress(atob("kEgwMAn/gA4N/+ADB/4DC8Fw
 	this.g.setColor(0,this.bmin);
     this.g.fillRect(120,55,239,150);
 	this.g.setColor(1,this.fmin);
-    this.g.drawString(this.t[1],120,72);
+    this.g.drawString(this.t[1],135,72);
     this.g.flip();
   }
    //seconds
